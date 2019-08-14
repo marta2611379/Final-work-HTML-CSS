@@ -1,0 +1,92 @@
+.first_floor {
+    height: 342px;
+    background-image: linear-gradient(to top, #322539 0%, #745083 100%);
+    margin-top: -23px;
+    padding-top: 80px;
+    margin-left: -10px;
+}
+
+.center_conta1ner {
+    width: 920px;
+    height: 190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cont1 {
+    width: 273px;
+}
+
+.header_about {
+    display: flex;
+    width: 224px;
+    height: 31px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+}
+
+.img {
+    width: 30px;
+    height: 32px;
+    margin-right: 22px;
+    margin-top: 3px;
+}
+
+.img_company1 {
+    background-image: url(img/source_of_icons.png);
+    background-position: 84% 28%;
+}
+
+.img_company2 {
+    background-image: url(img/source_of_icons.png);
+    background-position: 68% 52%;;
+}
+
+.img_company3 {
+    background-image: url(img/source_of_icons.png);
+    background-position: 100% 2%;
+}
+
+
+.about_company {
+/*    width: 173px;*/
+    height: 22px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: 'LeagueGothic';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.text_about_company {
+    width: 223px;
+    height: 113px;
+    text-shadow: 1px 1px 0 #0f1518;
+    color: #ffffff;
+    font-family: "Open_Sans";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-left: 57px;
+}
+
+.read_more {
+    min-width: 54px;
+    height: 14px;
+    color: #ffffff;
+    font-family: 'LeagueGothic';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 23px;
+    float: right;
+}
+
+.read_more:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}

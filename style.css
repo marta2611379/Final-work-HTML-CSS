@@ -1,0 +1,898 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(slider.css);
+@import url(main_firstFloor.css);
+@import url(main_secondFloor.css);
+@import url(footer.css);
+@import url(fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container1 {
+    height: 869px;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    padding-top: 54px;
+    margin: 0 auto;
+}
+
+.slider_cont1 {
+    /* Style for "Shape 4 co" */
+    background-image: url(img/source_of_icons.png);
+    background-position: -55px 1px;
+    width: 85px;
+    height: 20px;
+    /*opacity: 0.3;*/
+    margin: 0 auto;
+    margin-top: 37px;
+}
+
+.slider_cont1:hover {
+
+    background-position: -55px -20px;
+}
+
+.play_crcl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-image: url(img/Shape_14.png);
+    background-color: rgba(203, 165, 218, 0.8);
+    border-radius: 50%;
+}
+
+.play {
+    width: 22px;
+    height: 25px;
+    background-image: url(img/Shape_15.png);
+    background-repeat: no-repeat;
+}
+
+.o768 {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 960px) {
+
+    /*
+    .container1,
+    .slider {
+        width: 100%;
+    }
+*/
+/*
+    .list {
+
+        margin-left: 150px;
+    }
+
+    .header {
+        width: 950px;
+    }
+*/
+
+    .o768 {
+        display: none;
+    }
+
+    .menu_480 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:786px) and (max-width:960px) {
+
+    .container1 {
+        padding-top: 70px;
+        height: 799px;
+    }
+
+    .container {
+        width: 725px;
+    }
+
+
+    /*  HEADER*/
+    .header {
+        width: 636px;
+        height: 96px;
+        flex-direction: column;
+    }
+
+    .menu_480 {
+        display: none;
+    }
+
+    .logo {
+        width: 156px;
+        height: 40px;
+        padding-top: 4px;
+    }
+
+    .list {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 631px;
+        height: 21px;
+    }
+
+    /*    SLIDER*/
+    .slider {
+        margin-top: 79px;
+    }
+
+    .slider_text {
+        width: 275px;
+        height: 184px;
+        margin-top: 94px;
+        margin-left: 69px;
+        overflow: hidden;
+    }
+
+    .lorem {
+        font-size: 48px;
+        margin-left: 3px;
+        margin-bottom: 8px;
+    }
+
+
+    .it_will {
+        font-size: 24px;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-left: 2px;
+    }
+
+    .iphone4 {
+        margin-left: -77px;
+        margin-top: -23px;
+    }
+
+    .iphone4_copy {
+        margin-left: 133px;
+        margin-top: 55px;
+    }
+
+    /*    MAIN FIRST FLOOR*/
+    .first_floor {
+        margin-top: 0;
+        padding-top: 79px;
+    }
+
+    .center_conta1ner {
+        width: 716px;
+        height: 201px;
+        margin-left: 65px;
+    }
+
+    .cont1 {
+        width: 205px;
+    }
+
+    .img_company3,
+    .img_company2 {
+        background-position: 84% 28%;
+    }
+
+    .header_about {
+        margin-bottom: 4px;
+        margin-left: 0 px;
+    }
+
+    .img {
+        width: 30px;
+        height: 25px;
+        margin-right: 15px;
+        margin-top: 2px;
+    }
+
+
+    .about_company {
+        width: 139px;
+        height: 18px;
+        font-size: 24px;
+    }
+
+    .text_about_company {
+        width: 151px;
+        height: 143px;
+        font-size: 16px;
+        margin-left: 49px;
+        overflow: hidden;
+    }
+
+    .read_more {
+        margin-top: 11px;
+    }
+
+    /*    MAIN SECOND FLOOR*/
+    .second_floor_top_container {
+        width: 700px;
+        /*        padding-left: 10px;
+        */
+        margin: 0 auto;
+        margin-top: 100px;
+        justify-content: flex-start;
+    }
+
+    .pingbuller_and_slider {
+        width: 313px;
+        margin-right: 0px;
+    }
+
+    .pingbuller {
+        width: 315px;
+        height: 272px;
+        overflow: hidden;
+    }
+
+    .h2_pingbuller {
+        display: block;
+        margin-bottom: 17px;
+        width: 85px;
+        height: 41px;
+        font-size: 24px;
+    }
+
+    .resent_updates {
+        width: 327px;
+        margin-left: 40px;
+    }
+
+    .resent_updates_list {
+        width: 323px;
+        height: 50px;
+    }
+
+    .list_textbox {
+        width: 257px;
+        height: 42px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .pingbuller_texbox {
+        width: 248px;
+        height: 137px;
+        overflow: hidden;
+    }
+
+    .cont1 {
+        width: 205px;
+    }
+
+    .footer_top_container {
+        width: 734px;
+        height: 197px;
+    }
+
+    .ft_cont {
+        width: 205px;
+    }
+
+    .ft_cont .pingbuller_texbox {
+        width: 205px;
+        height: 161px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        overflow: hidden;
+    }
+
+    .copyright_text,
+    .pingbuller_footer,
+    .o960 {
+        display: none;
+    }
+
+    .o768 {
+        display: block;
+    }
+
+    .footer {
+        height: 600px;
+    }
+
+    .footer_top {
+        height: 400px;
+    }
+
+    .footer_bottom {
+        height: 200px;
+    }
+
+    .footer_bottom_container {
+        width: 727px;
+        height: 68px;
+        justify-content: flex-start;
+        white-space: nowrap;
+    }
+
+    .footer_author {
+        margin-top: 68px;
+    }
+
+    .footer_menu {
+        margin-right: 62px;
+    }
+
+
+}
+
+@media screen and (min-width:480px) and (max-width:786px) {
+    .container {
+        width: 430px;
+        padding-top: 0;
+    }
+
+    .container1 {
+        padding-top: 0;
+        height: 550px;
+    }
+
+    .header {
+        display: block;
+        height: 105px;
+        width: 252px;
+        margin-bottom: 28px;
+        margin-top: 70px;
+    }
+
+    .logo {
+        width: 153px;
+        height: 40px;
+        margin-left: 47px;
+        margin-bottom: 26px;
+        padding-top: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu_480 {
+        display: block;
+        position: relative;
+    }
+
+    .list_480 {
+        /* Style for "Shape 8" */
+        width: 244px;
+        height: 46px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+        border: 1px solid #051116;
+        background-color: rgba(54, 41, 62, 0.9);
+        text-align: center;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .list_480:hover {
+        width: 244px;
+        height: 276px;
+    }
+
+    .li_style_menu480 {
+        width: 100%;
+        height: 46px;
+        /*        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);*/
+        box-shadow: inset 0 -1px 0 rgba(105, 82, 114, 0.59);
+    }
+
+    .link_480 {
+        color: #ffffff;
+        font-family: "LeagueGothic";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 42px;
+        text-transform: uppercase;
+        list-style: none;
+        text-decoration: none;
+        margin-top: 15px;
+        margin-bottom: 14px
+    }
+
+    .li_style_menu480:hover {
+
+        background-color: rgba(54, 41, 62, 0.94);
+        border-bottom: 0.2px solid #edbfff;
+    }
+
+    .home_link:hover {
+        text-decoration-line: underline;
+    }
+
+
+    /*    slider*/
+    .slider {
+        height: 246px;
+        margin-top: 0;
+    }
+
+    .slider_text {
+        width: 201px;
+        height: 51px;
+        font-family: "MyriadPro";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        white-space: nowrap;
+        margin-right: 16px;
+    }
+
+    .lorem {
+        font-size: 36px;
+    }
+
+    .it_will {
+        font-size: 18px;
+        overflow: hidden;
+    }
+
+    .text_info {
+        display: none;
+    }
+
+    .iphone4,
+    .iphone4_copy {
+        display: none;
+    }
+
+
+    .iphone_480 {
+        background-image: url(img/Iphone.png);
+        width: 192px;
+        height: 304px;
+        margin-top: -9px;
+    }
+
+    .first_floor {
+        height: 598px;
+    }
+
+    .center_conta1ner {
+        width: 429px;
+        height: 448px;
+        display: block;
+    }
+
+    .cont1 {
+        height: 127px;
+        width: 100%;
+        margin-bottom: 19px;
+    }
+
+    .about_company {
+        height: 18px;
+        text-shadow: 1px 1px 0 #0f1518;
+        font-size: 24px;
+    }
+
+    .text_about_company {
+        /* Style for "Nunc turpi" */
+        width: 364px;
+        height: 65px;
+        font-size: 16px;
+    }
+
+    .img_company3,
+    .img_company2 {
+        background-position: 84% 28%;
+    }
+
+    .second_floor {
+        height: 1024px;
+    }
+
+    .second_floor_top {
+        height: 790px;
+        display: block;
+    }
+
+    .second_floor_top_container {
+        width: 418px;
+        height: 635px;
+        display: block;
+    }
+
+    .o960 {
+        display: none;
+    }
+
+    .o768 {
+        display: block;
+    }
+
+    .marks {
+        /* Style for "logos" */
+        width: 345px;
+        height: 154px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /*        background-color: aquamarine;*/
+    }
+
+    .mark {
+        min-width: 90px;
+        height: 65px;
+    }
+
+    .mark5 {
+        background-position: 79% 0%;
+        width: 105px;
+        /*        height: 65px;*/
+    }
+
+    .resent_updates {
+        height: 261px;
+        width: 337px;
+        margin-top: 32px;
+        margin-left: 40px;
+    }
+
+    .resent_updates_list {
+        overflow: hidden;
+    }
+
+
+    .second_floor_bottom {
+        height: 233px;
+    }
+
+    .footer {
+        height: 870px;
+    }
+
+    .footer_top {
+        height: 670px;
+        display: block;
+    }
+
+    .footer_top_container {
+        width: 440px;
+        height: 498px;
+        display: block;
+    }
+
+    .ft_cont {
+        height: 125px;
+        margin-bottom: 60px;
+    }
+
+
+
+    .copyright_text,
+    .pingbuller_footer,
+    .o960 {
+        display: none;
+    }
+
+    .o768 {
+        display: block;
+    }
+
+    .ft_cont .pingbuller_texbox {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        overflow: hidden;
+        width: 440px;
+        height: 93px;
+        text-shadow: 1px 1px 0 #ffffff;
+    }
+
+    .footer_bottom {
+        height: 200px;
+    }
+
+    .footer_bottom_container {
+        width: 438px;
+        height: 71px;
+        flex-direction: column;
+
+    }
+
+    .footer_menu {
+        /* Style for "Home" */
+        width: 435px;
+        height: 15px;
+        margin-right: 0;
+    }
+
+    .footer_author {
+        margin-left: 149px;
+    }
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .container {
+        width: 270px;
+    }
+
+    .container1 {
+        height: 517px;
+        padding-top: 70px;
+
+    }
+
+
+    .header {
+        width: 153px;
+        height: 105px;
+        display: block;
+    }
+
+    .logo {
+        width: 153px;
+        height: 40px;
+        margin-left: 0px;
+        margin-bottom: 26px;
+        padding-top: 0;
+    }
+
+    .menu_480 {
+        display: block;
+        position: relative;
+    }
+
+    .list_480 {
+        min-width: 52px;
+        height: 37px;
+        text-align: center;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .li_style_menu480 {
+        width: 100%;
+        height: 46px;
+    }
+
+    .link_480 {
+        color: #ffffff;
+        font-family: "LeagueGothic";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 42px;
+        text-transform: uppercase;
+        list-style: none;
+        text-decoration: none;
+        margin-top: 15px;
+        margin-bottom: 14px
+    }
+
+    .home_link:hover {
+        text-decoration-line: underline;
+    }
+
+    .slider {
+        background-color: transparent;
+        height: 60px;
+        margin-top: 124px;
+        text-align: center;
+    }
+
+    .slider_cont1 {
+        margin-top: 81px;
+        margin-bottom: 61px;
+    }
+
+    .iphone4,
+    .iphone4_copy,
+    .menu,
+    .text_info {
+        display: none;
+    }
+
+    .slider_text {
+        width: 201px;
+        height: 60px;
+        padding-top: 5px;
+        margin-top: 0;
+        overflow: hidden;
+        margin-left: 50px;
+    }
+
+    .lorem {
+        line-height: 24px;
+        font-size: 36px;
+        margin-left: 0;
+    }
+
+    .it_will {
+        line-height: 24px;
+        font-size: 18px;
+
+    }
+
+    .first_floor {
+        height: 598px;
+    }
+
+    .center_conta1ner {
+        width: 270px;
+        height: 460px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cont1 {
+        height: 137px;
+        width: 100%;
+    }
+
+    .header_about {
+        margin-bottom: 0;
+    }
+
+    .about_company {
+        height: 18px;
+        text-shadow: 1px 1px 0 #0f1518;
+        font-size: 24px;
+    }
+
+    .text_about_company {
+        font-size: 16px;
+        width: 193px;
+        height: 70px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 11px;
+        margin-bottom: 19px;
+        overflow: hidden;
+    }
+
+    .read_more {
+        margin-top: 0px;
+    }
+
+    .img_company3,
+    .img_company2 {
+        background-position: 84% 28%;
+    }
+
+    .second_floor {
+        height: 1206px;
+    }
+
+    .second_floor_top {
+        height: 794px;
+        display: block;
+    }
+
+    .second_floor_top_container {
+        width: 281px;
+        height: 625px;
+        flex-direction: column;
+    }
+
+    .o960 {
+        display: none;
+    }
+
+    .o768 {
+        display: block;
+    }
+
+    .marks {
+        width: 237px;
+        height: 294px;
+        margin-left: 22px;
+        margin-bottom: 52px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .mark {
+        min-width: 90px;
+        height: 65px;
+    }
+
+    .mark5 {
+        background-position: 79% 0%;
+        width: 105px;
+    }
+
+    .pingbuller_and_slider {
+        width: 258px;
+        height: 314px;
+        margin-bottom: 51px;
+        z-index: 1;
+    }
+
+
+    .pingbuller {
+        width: 256px;
+        height: 272px;
+        background-image: url(img/Layer_11_copy_2.png);
+        margin-bottom: 24px;
+        padding-top: 27px;
+        overflow: hidden;
+    }
+
+    .h2_pingbuller {
+        flex-direction: column;
+        width: 85px;
+        height: 42px;
+        font-size: 24px;
+        margin-bottom: 13px;
+
+    }
+
+    .pingbuller_texbox {
+        width: 178px;
+        height: 149px;
+        overflow: hidden;
+        font-size: 16px;
+    }
+
+    .resent_updates {
+        height: 261px;
+        width: 285px;
+        margin-top: 32px;
+    }
+
+    .resent_updates_list {
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .list_textbox {
+        min-width: 212px;
+    }
+
+    .footer {
+        height: 0;
+    }
+
+    .footer_top {
+        display: none;
+    }
+
+    .footer_bottom {
+        height: 200px;
+        padding-top: 0;
+        display: block;
+    }
+
+    .footer_bottom_container {
+        margin-top: 42px;
+        margin-left: 71px;
+        width: 138px;
+        height: 13px;
+        display: block;
+    }
+
+    .footer_menu {
+        display: none;
+    }
+
+    .second_floor_bottom {
+        height: 420px;
+        /*        background-color: aqua;*/
+    }
+
+    .pingbuller::before {
+        position:
+    }
+
+}

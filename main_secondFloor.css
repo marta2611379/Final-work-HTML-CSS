@@ -1,0 +1,221 @@
+.second_floor {
+    height: 610px;
+    background-color: #f9f9f9;
+}
+
+.second_floor_top {
+    height: 488px;
+    display: flex;
+}
+
+.second_floor_top_container {
+    max-width: 922px;
+    height: 314px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-left: 23px;
+}
+
+
+.pingbuller_and_slider {
+    width: 429px;
+    height: 314px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     position: relative;
+}
+
+.pingbuller {
+    height: 292px;
+    width: 427px;
+    background-image: url(img/Layer%2060.png);
+    background-size: 100% 100%;
+    padding-top: 32px;
+   
+}
+
+
+.h2_pingbuller {
+    width: 215px;
+    height: 22px;
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 40px;
+
+}
+
+.pingbuller_and_slider::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 17px;
+    width: 49px;
+    height: 49px;
+    background-image: url(img/source_of_icons.png);
+    background-position: 1% 99.5%;
+}
+
+.h2_pingbuller_part1 {
+    color: #454545;
+    margin-right: 6px;
+    text-shadow: 1px 1px 0 #ffffff;
+}
+
+.h2_pingbuller_part2 {
+    color: #edbfff;
+}
+
+.pingbuller_texbox {
+    width: 346px;
+    height: 161px;
+    color: #454545;
+    font-family: "Open_Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-left: 38px;
+}
+
+.slider_points {
+    width: 85px;
+    height: 20px;
+    background-image: url(img/source_of_icons.png);
+    background-position: -55px -21px;
+}
+.slider_points:hover{
+       background-position: -55px 1px;
+}
+
+
+.second_floor_bottom {
+    height: 122px;
+    padding-top: 25px;
+}
+
+.marks {
+    width: 775px;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.mark {
+    width: 16.5%;
+    background-image: url(img/logos.png);
+}
+
+.mark1 {
+    background-position: 0% 0%;
+}
+
+.mark2 {
+    background-position: 20% 0%;
+}
+
+.mark3 {
+    background-position: 39% 0%;
+}
+
+.mark4 {
+    background-position: 59% 0%;
+}
+
+.mark5 {
+    background-position: 79% 0%;
+}
+
+.mark6 {
+    background-position: 99% 0%;
+}
+
+
+.resent_updates {
+    height: 261px;
+    width: 420px;
+    margin-top: 32px;
+    background-color: azure;
+}
+
+.h2_resent_updates {
+    height: 22px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "LeagueGothic";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+.resent_updates_list {
+    height: 49px;
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.picture_point {
+    min-width: 49px;
+    height: 49px;
+    background-image: url(img/source_of_icons.png);
+    margin-right: 17px;
+}
+
+.list_textbox {
+    width: 365px;
+    height: 41px;
+    text-shadow: 1px 1px 0 #ffffff;
+    color: #454545;
+    font-family: "Open_Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.list_textbox_bold {
+    font-family: "Open_Sans_Extrabold";
+    font-weight: 400;
+}
+
+.list_textbox_normal {
+    font-family: "Open_Sans_Light";
+    font-weight: 300;
+}
+
+.picture1 {
+    background-position: 31% 75%;
+}
+
+.picture2 {
+    background-position: 46% 63.5%;
+}
+
+.picture3 {
+    background-position: 16% 87%;
+}
+
+.read_more_here {
+    float: right;
+    height: 14px;
+    color: #454545;
+    font-family: "LeagueGothic";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+.read_more_here:hover {
+    text-shadow: 1px 1px 0 #ffffff;
+}
